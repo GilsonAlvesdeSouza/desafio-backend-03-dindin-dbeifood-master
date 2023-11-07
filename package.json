@@ -1,0 +1,24 @@
+{
+	"name": "desafio-backend-03-dindin-dbeifood",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:Ulisses-01/desafio-backend-03-dindin-dbeifood.git",
+	"author": "Gilson Alves <gilsonalvesdesouza@hotmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"pg": "^8.9.0",
+		"yup": "^1.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
